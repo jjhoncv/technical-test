@@ -1,0 +1,27 @@
+@import './normalize.css';
+@import './fonts.css';
+
+* {
+  font-family: 'Manrope';
+  font-size: 16px;
+}
+
+main {
+  @media (min-width: 1024px) {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  line-height: 57px;
+  letter-spacing: -0.5px;
+}

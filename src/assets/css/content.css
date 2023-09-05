@@ -1,0 +1,10 @@
+.paragraph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #a0aec0;
+}
+.paragraph a {
+  color: #27a376;
+  font-size: 14px;
+}

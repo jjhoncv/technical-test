@@ -57,6 +57,11 @@
 .login-wrapper {
   width: 100%;
   display: flex;
+
+  @media (min-width: 1024px) {
+    width: 1440px;
+    margin: 0 auto;
+  }
 }
 .login-left {
   display: flex;
@@ -102,6 +107,7 @@
 }
 .login-form h4 {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .login-error {

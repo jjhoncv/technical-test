@@ -1,0 +1,22 @@
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.form-item label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+.form-item label span {
+  color: red;
+}
+.form-item label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #111827;
+  margin-bottom: 10px;
+}

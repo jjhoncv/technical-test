@@ -1,0 +1,75 @@
+.input-error {
+  color: #e03137;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.2px;
+  margin: 5px;
+}
+.field,
+.button {
+  padding: 16px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #e9eaec;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+.field::placeholder {
+  color: #a0aec0;
+}
+.field:focus-visible {
+  border-color: #0caf60;
+}
+.button {
+  opacity: 1;
+  transition: opacity 0.1s linear;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.button.outline {
+  background: white;
+  color: #111827;
+  border: 1px outset #111827;
+}
+.button.fullwidth {
+  width: 100%;
+}
+.button:hover {
+  opacity: 0.8;
+  transition: opacity 0.1s linear;
+}
+
+.search-bar {
+  width: 100%;
+  margin-right: 20px;
+  position: relative;
+}
+.search-bar .field {
+  width: 100%;
+}
+
+.button-search {
+  position: absolute;
+  right: 15px;
+  border: 0;
+  background: transparent;
+  top: 19px;
+  cursor: pointer;
+}
+
+.dropdown {
+  background: transparent;
+  border: none;
+}
+
+.button-icon {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
